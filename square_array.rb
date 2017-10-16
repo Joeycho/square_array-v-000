@@ -1,8 +1,8 @@
 def square_array(array)
   # your code here
-#  narr=[]
+  narr=[]
   array.collect do|num|
-    num*num
+    narr.push(num*num)
   end
-#  return narr
+  return narr
 end
