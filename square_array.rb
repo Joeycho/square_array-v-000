@@ -4,4 +4,5 @@ def square_array(array)
   array.each do|num|
     narr.push(num*num)
   end
+  return narr
 end
